@@ -6,6 +6,8 @@
     <modules>
         <module>springcloud_commons</module>
         <module>springcloud_itemservice</module>
+        <module>springcloud_userservice</module>
+        <module>springcloud_orderservice</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
