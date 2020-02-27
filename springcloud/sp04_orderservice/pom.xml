@@ -7,10 +7,10 @@
         <groupId>com.spc</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.spc.itemservice</groupId>
-    <artifactId>springcloud_itemservice</artifactId>
+    <groupId>com.spc.orderservice</groupId>
+    <artifactId>sp04_orderservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud_itemservice</name>
+    <name>sp04_orderservice</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -33,6 +33,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <!-- 热部署依赖包 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -61,7 +62,7 @@
         <!-- commons依赖 -->
         <dependency>
             <groupId>com.spc.commons</groupId>
-            <artifactId>springcloud_commons</artifactId>
+            <artifactId>sp01_commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- mybatis-plus -->

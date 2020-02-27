@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>springcloud_commons</module>
-        <module>springcloud_itemservice</module>
-        <module>springcloud_userservice</module>
-        <module>springcloud_orderservice</module>
+        <module>sp01_commons</module>
+        <module>sp02_itemservice</module>
+        <module>sp03_userservice</module>
+        <module>sp04_orderservice</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

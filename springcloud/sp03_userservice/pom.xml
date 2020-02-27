@@ -7,10 +7,10 @@
         <groupId>com.spc</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.spc.orderservice</groupId>
-    <artifactId>springcloud_orderservice</artifactId>
+    <groupId>com.spc.userservice</groupId>
+    <artifactId>sp03_userservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud_orderservice</name>
+    <name>sp03_userservice</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,6 +22,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -62,7 +63,7 @@
         <!-- commons依赖 -->
         <dependency>
             <groupId>com.spc.commons</groupId>
-            <artifactId>springcloud_commons</artifactId>
+            <artifactId>sp01_commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- mybatis-plus -->

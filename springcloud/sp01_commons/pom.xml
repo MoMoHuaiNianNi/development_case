@@ -10,9 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.spc.commons</groupId>
-    <artifactId>springcloud_commons</artifactId>
+    <artifactId>sp01_commons</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud_commons</name>
+    <name>sp01_commons</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
